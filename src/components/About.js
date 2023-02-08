@@ -40,11 +40,8 @@ const About = () => {
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {
-                    inView ?
-                      <CountUp start={0} end={6} duration={3} /> : null
-                  }
-                  years+
+                  6+ <span className='ml-[3px]'>Years</span>
+
 
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -55,28 +52,13 @@ const About = () => {
 
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {
-                    inView ?
-                      <CountUp start={0} end={2} duration={3} /> : null
-                  }
-                  years+
+                  2+ <span className='ml-[3px]'>Years</span>
+
+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Total Industry <br />
+                  Industry <br />
                   Experience{' '}
-                </div>
-              </div>
-              <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {
-                    inView ?
-                      <CountUp start={0} end={5} duration={3} /> : null
-                  }
-                  00+
-                </div>
-                <div className="font-primary text-sm tracking-[2px]">
-                  Projects <br />
-                  Built{' '}
                 </div>
               </div>
 

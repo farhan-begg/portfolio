@@ -13,7 +13,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 const Banner = () => {
   return (
-    <sections className="min-h-[85vh] lg:min-h-[78vh] flex items-center" id="home">
+    <sections className="min-h-[75vh] lg:min-h-[85vh] flex items-center" id="home">
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row">
           <div className="flex-1 text-center font-secondary lg:text-left">

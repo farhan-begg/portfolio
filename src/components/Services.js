@@ -61,7 +61,7 @@ const Services = () => {
               // destructure service 
               const { name, description, link } = service;
               return (
-                <div className='border-b border-white/20 h-[166px] mb-[38px]' key={index}>
+                <div className='border-b border-white/20 h-[167px] mb-[38px]' key={index}>
                   <div className='max-w-[576px]'>
                     <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">{name}</h4>
                     <p className="font-secondary leading-tight">{description}</p>
