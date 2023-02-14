@@ -5,6 +5,7 @@ import image from '../assets/pngegg.png';
 // import image from '../assets/pn2.png';
 
 import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import resume from '../../src/assets/FarhanBegg.pdf'
 
 import { TypeAnimation } from 'react-type-animation';
 
@@ -30,23 +31,12 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </motion.div>
-            <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className="mb-8 max-w-lg mx-auto lg:mx-0">Lorem Ipsum </motion.p>
-            <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
+            <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className="flex text-[20px] gap-x-6 max-w-max mx-auto mt-10 lg:mx-0">
+              <a href="https://github.com/farhan-begg">
+                <button className=' btn btn-sm'>Github</button>
               </a>
-            </motion.div>
-            <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
-                <FaYoutube />
-              </a>
-              <a href="#">
-                <FaGithub />
-              </a>
-              <a href="#">
-                <FaDribbble />
-              </a>
+              <a href={resume} download="FarhanBeggResume.pdf">          <button className=' btn btn-sm'>Download Resume         </button></a>
+
             </motion.div>
           </div>
           <motion.div variants={fadeIn('left', 0.8)} initial="hidden" whileInView={'show'} className='hidden lg:flex flex-1 max-w-[320px] lg:min-w-[422px] object-fit-cover mx-auto'>

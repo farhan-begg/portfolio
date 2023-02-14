@@ -18,7 +18,6 @@ const App = () => {
       <About />
       <Services />
 
-      <Contact />
       <div className=''></div>
     </div>
   );
