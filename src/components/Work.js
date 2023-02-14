@@ -59,8 +59,7 @@ const Work = () => {
                 </span>
                 <button>
                   <a
-                    href="              https://admin-tracker.onrender.com/dashboard
-"
+                    href="https://admin-tracker.onrender.com/"
                     className="text-gradient"
                   >
                     Live
